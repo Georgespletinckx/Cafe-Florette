@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Nous trouver</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+         <!-- Conception barre de menu -->
+    <section class="barnoir"> 
+        <h1>CAFE FLORETTE</h1>
+    <!-- nav pour menu -->
+        <nav>
+            <!--liste non ordonnée  -->
+            <ul>
+                <!-- li*3 donne 3 éléments -->
+                <!-- si on utilise href="#" cela renvoie vers un id dans la page  -->
+                <li> <a class="menu" href="index.html">Accueil</a></li>
+                <li> <a class="menu" href="noustrouver.html" id="active">Nous Trouver</a></li>
+                <li> <a class="menu" href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </section>
+    <section class="carte">
+        <!--une div entoure les 2 div suivantes pour manipuler les 2 div en même temps-->
+        <div class="tourcarte">
+            <!--rechercher sur google map le lieu puis partager, intégrer une carte, copier le lien et le placer dans le code-->
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2625.275976215621!2d2.3338425159490175!3d48.85294760904346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e671d90bdccb61%3A0x42c132f40c86ac1!2s131%20Boulevard%20Saint-Germain%2C%2075006%20Paris%2C%20France!5e0!3m2!1sfr!2sbe!4v1579606115135!5m2!1sfr!2sbe" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+            </div>
+            <div class="metro">
+                <h3 class="ounous">
+                    Où nous trouver
+                </h3>
+                <!--pour entourer un chiffre ou un caractère ou un mot, utiliser span-->
+                <h4>
+                    Métro : ligne <span class="chiffre1">4</span> - Odéon, ligne <span class="chiffre2">11</span> - Mabillon
+                </h4>
+                <p>
+                    Adresse : 131 Boulevard Saint-Germain, 75006 Paris
+                </p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <P>
+            Copyright © - florette - 2019
+        </P>
+    </footer>
+</body>
+</html>
